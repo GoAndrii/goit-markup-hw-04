@@ -91,8 +91,8 @@ ul {
         line-height: 1.14;
         text-decoration: none;
         letter-spacing: 0.02em;
-        padding-top: 24px;
-        padding-bottom: 25px;
+        padding-top: 32px;
+        padding-bottom: 32px;
 }
 
 .nav-link,
@@ -230,8 +230,6 @@ ul {
 
 .main-pad{
         display:flex;
-            padding-bottom: 94px;
-            padding-top: 94px;
             align-items: center;
 }
 
@@ -278,8 +276,6 @@ ul {
         letter-spacing: 0.03em;
         text-align: center;
         margin-bottom: 50px;
-
-
 }
 
 .spot-foto{
@@ -287,8 +283,8 @@ ul {
     text-align: center;
 }
 
-.work-pad{
-    padding-bottom: 94px;
+.section.no-pad{
+    padding-bottom: 0px;
 }
 
 .item-foto:not(:last-child){
@@ -298,11 +294,6 @@ ul {
 
 .user-fons{
     background-color:var(--user-fons-color);
-}
-
-.people-pad{
-    padding-top: 94px;
-    padding-bottom: 94px;
 }
 
 .title-people{
@@ -353,10 +344,10 @@ ul {
 .mar-used{
     display: flex;
     align-items: center;
+    justify-content: center;
     width: 44px;
     height: 44px;
     border-radius: 50%;
-    padding: 12px 12px;
     color: var(--icon-color);
 }
 
@@ -379,11 +370,6 @@ ul {
         margin-bottom: 16px;
 }
 
-.client-list{
-    padding-top: 94px;
-    padding-bottom: 94px;
-}
-
 .people-list {
     display: flex;
     align-items: center;
@@ -392,14 +378,11 @@ ul {
 .people-blok{
     display: flex;
     align-items: center;
+    justify-content: center;
     border: 1px solid currentColor;
         border-radius: 4px;
         width: 170px;
         height: 92px;
-        padding-left: 32px;
-        padding-top: 16px;
-        padding-right: 32px;
-        padding-bottom: 16px;
         color: #AFB1B8;
 }
 
@@ -411,6 +394,11 @@ ul {
     fill: currentColor;
 }
 
+.section{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
 /* footer */
 
 .wrap{
@@ -420,8 +408,8 @@ ul {
 
 .footer-fons{
     background-color:var(--box-fon-color); 
-    display: flex;
-
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .footer-logo{
@@ -438,8 +426,6 @@ ul {
 
 .footer-conteiner{
     display: block;
-    padding-top: 60px;
-    padding-bottom: 60px;
 }
 
 .address{
@@ -463,7 +449,10 @@ ul {
         line-height: 1.71;
         letter-spacing: 0.03em;
         text-decoration: none;
-        margin-bottom: 9px;
+}
+
+.li-mar{
+    margin-bottom: 9px;
 }
 
 .address-links{
@@ -500,10 +489,10 @@ ul {
 .footer-li{
     display: flex;
         align-items: center;
+        justify-content: center;
         width: 44px;
         height: 44px;
         border-radius: 50%;
-        padding: 12px 12px;
         color: var(--primary-white-color);
         background-color:rgba(255, 255, 255, 0.1);
 }
@@ -528,15 +517,10 @@ ul {
     margin-bottom: 50px;
 }
 
-.main-button .item:hover,
-.main-button .item:focus{
+.main-button .title-button:hover,
+.main-button .title-button:focus{
     border-radius: 4px;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-}
-
-.port-pag{
-    padding-top: 94px;
-    padding-bottom: 94px;
 }
 
 .spot-no .item:not(:last-child){
@@ -560,13 +544,14 @@ ul {
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 24px;
+    padding-right: 24px;
     border-bottom: 1px solid #EEEEEE;
     border-right: 1px solid #EEEEEE;
     border-left: 1px solid #EEEEEE;
 }
 
-.item-fotos:hover,
-.item-fotos:focus{
+.a-fons:hover,
+.a-fons:focus{
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
